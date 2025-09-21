@@ -8,6 +8,13 @@ public class PersonaImc {
     private short estatura;
     private byte edad;
     }
+
+    public PersonaImc(String Nombre, float Peso, short estatura, byte edad) {
+        this.Nombre = Nombre;
+        this.Peso = Peso;
+        this.estatura = estatura;
+        this.edad = edad;
+    }
     
 public class CalculoMC {
 
